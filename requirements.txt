@@ -1,2 +1,6 @@
 tensorflow
 pandas
+datetime
+plotly
+statsmodels
+
