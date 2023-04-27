@@ -18,14 +18,14 @@ siddharth = {
 }
 
 # Define page layout
-st.write(f"# About Us | HealthVision")
+st.write(f"# About Us")
 st.write(f"## {neev['name']} and {siddharth['name']}")
 st.write(f"### {neev['title']} and {siddharth['title']}")
 
 # Add photos
 col1, col2 = st.columns(2)
 with col1:
-    st.image("Images/NeevImage.jpg", width=200)
+    st.image("Images/NeevImage.jpeg", width=200)
     st.write(neev['name'])
 
 with col2:
