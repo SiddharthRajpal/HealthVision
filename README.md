@@ -39,7 +39,7 @@ Each Layer has a specific job in order to get the desired output, they are :-
 
 - Max pooling layer (max_pooling2d_2): This layer reduces the dimensionality of the output of the previous layer by taking the maximum value in each 2x2 region. The output of this layer has a shape of (None, 26, 26, 128).
 
- Flatten layer (flatten): This layer flattens the output of the previous layer into a 1D vector. The output of this layer has a shape of (None, 86528).
+ - Flatten layer (flatten): This layer flattens the output of the previous layer into a 1D vector. The output of this layer has a shape of (None, 86528).
 
 - Fully connected layer (dense): This layer takes the flattened vector from the previous layer and applies 128 neurons to it, producing a 128-dimensional output. The output of this layer has a shape of (None, 128).
 
