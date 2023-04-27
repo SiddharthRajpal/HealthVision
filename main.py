@@ -14,4 +14,4 @@ x = st.button("Predict")
 if x:
     with st.spinner("Predicting..."):
         y,conf = imagerec.imagerecognise(uploaded_file,"Models/FinalModel.h5","Models/labels.txt")
-    st.write(f"It is {y} with {conf*100}% confidence")
+    st.write(f"It is {y} with {round(conf*100)}% confidence")
