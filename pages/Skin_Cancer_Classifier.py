@@ -1,17 +1,13 @@
 import streamlit as st
 from skin_cancer import detectskin
 import pandas as pd
+import random
 import streamlit.components.v1 as components
-
 st.set_page_config(
     page_title="HealthVision AI",
     page_icon="🧬",
     initial_sidebar_state="expanded",
 )
-st.markdown(""" <style>
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-</style> """, unsafe_allow_html=True)
 components.html(
     """
     <style>
@@ -31,6 +27,13 @@ components.html(
     """,
     height=60,
 )
+
+
+st.markdown(""" <style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style> """, unsafe_allow_html=True)
+
 margins_css = """
     <style>
         .main > div {
@@ -55,7 +58,9 @@ if uploaded_file!=None:
     st.image(uploaded_file)
 x = st.button("Predict")
 if x:
-    with st.spinner("Predicting..."):
-        y = detectskin(uploaded_file,"https://drive.google.com/file/d/1F_P6oxL6DuK7dNa-fuhfepDeFPEhNgBu/view?usp=sharing")
-    st.header(f"It is {y}")
-    st.balloons()
+    if uploaded_file!=None:
+        with st.spinner("Predicting..."):
+            y = detectskin(uploaded_file,"https://drive.google.com/file/d/1F_P6oxL6DuK7dNa-fuhfepDeFPEhNgBu/view?usp=sharing")
+        
+        st.header(f"It is {y}")
+        st.balloons()
