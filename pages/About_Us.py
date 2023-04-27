@@ -1,7 +1,16 @@
 import streamlit as st
 
 # Set page title
-st.set_page_config(page_title='About Us | HealthVision')
+st.set_page_config(
+    page_title="HealthVision AI | About Us",
+    page_icon=":dna:",
+    initial_sidebar_state="expanded",
+)
+st.markdown(""" <style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+img{border-radius: 10px;}
+</style> """, unsafe_allow_html=True)
 
 # Define Neev Datta and Siddharth Rajpal
 neev = {
