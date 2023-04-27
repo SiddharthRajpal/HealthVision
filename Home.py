@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 
 # Set page title
 st.set_page_config(
@@ -7,9 +8,27 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+components.html(
+    """
+    <style>
+        p{
+            margin:0px;
+            padding:0px;
+            color: white;
+            font-family: "Source Sans Pro", sans-serif;
+            font-size: 55px;
+            font-weight: 700;
+            top: 0px;
+            right: 25%;
+            position: fixed;
+        }
+    </style>
+    <p id="effect">HealthVision AI</p>
+    """,
+    height=60,
+)
 
 def page_layout():
-    st.title("Welcome to HealthVision")
     st.write("HealthVision is an app that combines various ML models into one in order to determine if you have a disease, using CNN and X-rays of the patients. The app was made by Neev Datta and Siddharth Rajpal for a project. The app uses advanced algorithms to diagnose various diseases, including lung cancer, tuberculosis, and pneumonia.")
     st.markdown("## Benefits:")
     st.write("- Fast and accurate diagnosis of diseases")
