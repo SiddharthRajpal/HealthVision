@@ -49,7 +49,9 @@ If you have the requirements already installed, you can skip this section. If no
 2. Upload a chest x-ray image to see if a person has pneumonia or not.
 
 ## Our Model
-Below is the summary of our CNN model which we have made using python and keras.
+Below is the summary of our CNN models which we have made using python and keras.
+
+### Model for Covid & Pneumonia Classification
 
 | Layer (type)                  | Output Shape             | Param #     |
 |-------------------------------|--------------------------|-------------|
