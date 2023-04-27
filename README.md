@@ -62,18 +62,17 @@ itive
 
 ### Pneumonia
 #### Positive
-- ![PNEUMONIA(4268)](https://user-images.githubusercontent.com/77538244/234957766-d2c1d207-6719-43bb-9865-9202b9d3f136.jpg)
+ ![PNEUMONIA(4268)](https://user-images.githubusercontent.com/77538244/234957766-d2c1d207-6719-43bb-9865-9202b9d3f136.jpg)
 
 #### Negative
--   <img src="(https://user-images.githubusercontent.com/77538244/234957860-709f2738-7acf-4dfb-b9f6-3d3bb3688986.jpg"  width="60%" height="30%">
-- ![NORMAL(1559)](https://user-images.githubusercontent.com/77538244/234957860-709f2738-7acf-4dfb-b9f6-3d3bb3688986.jpg)
+![NORMAL(1559)](https://user-images.githubusercontent.com/77538244/234957860-709f2738-7acf-4dfb-b9f6-3d3bb3688986.jpg)
 
 ### Skin Cancer
 #### Positive (Malignant)
-- ![90](https://user-images.githubusercontent.com/77538244/234957957-e0c19cbe-9988-45c8-9d4f-84382ea40014.jpg)
+ ![90](https://user-images.githubusercontent.com/77538244/234957957-e0c19cbe-9988-45c8-9d4f-84382ea40014.jpg)
 
 #### Negative (Benign)
--  ![69](https://user-images.githubusercontent.com/77538244/234958000-bae1b9bf-c3bb-4af2-b55b-2f8bed152daf.jpg)
+  ![69](https://user-images.githubusercontent.com/77538244/234958000-bae1b9bf-c3bb-4af2-b55b-2f8bed152daf.jpg)
 ## Requirements
 
 The following libraries are required for running this project:
