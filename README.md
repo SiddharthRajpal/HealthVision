@@ -44,7 +44,7 @@ If you have the requirements already installed, you can skip this section. If no
 
 
 ## Usage
-Our Site is hosted at this link :- [https://healthvision.streamlit.app/]
+Our Site is hosted at this link :- [https://healthvisionai.streamlit.app/]
 
 ## Our Model
 Below is the summary of our CNN model which we have made using python and keras.
