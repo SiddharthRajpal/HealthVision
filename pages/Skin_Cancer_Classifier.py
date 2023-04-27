@@ -60,7 +60,7 @@ x = st.button("Predict")
 if x:
     if uploaded_file!=None:
         with st.spinner("Predicting..."):
-            y = detectskin(uploaded_file,"Models/skin-cancer.h5")
+            y = detectskin(uploaded_file,"Models/skin-cancer-2.h5")
         
         st.header(f"It is {y}")
         st.balloons()
