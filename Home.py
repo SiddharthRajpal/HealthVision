@@ -1,7 +1,11 @@
 import streamlit as st
 
 # Set page title
-st.set_page_config(page_title="HealthVision Homepage")
+st.set_page_config(
+    page_title="HealthVision AI",
+    page_icon="🧬",
+    initial_sidebar_state="expanded",
+)
 
 # Define page layout
 def page_layout():
