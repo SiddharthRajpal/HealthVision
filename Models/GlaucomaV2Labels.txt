@@ -1,0 +1,2 @@
+0 Glaucoma Positive
+1 Glaucoma Negative
