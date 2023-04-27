@@ -48,4 +48,4 @@ x = st.button("Predict")
 if x:
     with st.spinner("Predicting..."):
         y,conf = imagerec.imagerecognise(uploaded_file,"Models/Pnemonia.h5","Models/labelsPnemonia.txt")
-    st.write(f"It is {y}")
+    st.header(f"It is {y}")
