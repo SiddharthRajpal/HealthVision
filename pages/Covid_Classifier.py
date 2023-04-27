@@ -2,12 +2,34 @@ import streamlit as st
 import imagerec
 import pandas as pd
 import random
+import streamlit.components.v1 as components
 
 st.set_page_config(
     page_title="HealthVision AI",
     page_icon=":dna:",
     initial_sidebar_state="expanded",
 )
+
+components.html(
+    """
+    <style>
+        p{
+            margin:0px;
+            padding:0px;
+            color: white;
+            font-family: "Source Sans Pro", sans-serif;
+            font-size: 55px;
+            font-weight: 700;
+            top: 0px;
+            right: 25%;
+            position: fixed;
+        }
+    </style>
+    <p id="effect">HealthVision AI</p>
+    """,
+    height=60,
+)
+
 st.title("Covid X-Ray Predictor")
 
 st.write("COVID-19 is a highly infectious respiratory illness caused by the SARS-CoV-2 virus. It first emerged in Wuhan, China in late 2019 and quickly spread to become a global pandemic. Symptoms of COVID-19 can range from mild (fever, cough, fatigue, body aches) to severe (difficulty breathing, pneumonia, acute respiratory distress syndrome) and it can lead to death in some cases, especially in elderly people and those with underlying health conditions. The virus is primarily spread through respiratory droplets when an infected person coughs, sneezes, talks or breathes, and can also be spread by touching a surface contaminated with the virus and then touching one's mouth, nose, or eyes. Prevention measures include frequent hand washing, wearing masks, social distancing, and vaccination.")
