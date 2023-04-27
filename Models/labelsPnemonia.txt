@@ -1,2 +1,2 @@
-0 Normal
-1 Not Safe
+0 Negative
+1 Positive
