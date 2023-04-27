@@ -45,6 +45,7 @@ If you have the requirements already installed, you can skip this section. If no
 
 ## Usage
 Our Site is hosted at this link :- [https://healthvisionai.streamlit.app/]
+- Also here are some "Executors" for you to use while testing our software.. these are just references and you can use any image ou have :) :- [https://github.com/SiddharthRajpal/HealthVision/tree/main/Executors]
 
 ## Our Model
 Below is the summary of our CNN model which we have made using python and keras.
