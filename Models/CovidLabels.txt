@@ -1,0 +1,2 @@
+0 Covid
+1 Normal
