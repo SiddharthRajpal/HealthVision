@@ -1,2 +1,2 @@
-0 Covid
-1 Normal
+0 Positive
+1 Negative
