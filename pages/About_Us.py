@@ -43,6 +43,4 @@ st.write(siddharth['bio'])
 st.markdown("## HealthVision")
 st.write("HealthVision is an app that uses AI and machine learning to detect diseases from images uploaded by users. Our goal is to make healthcare more accessible and affordable by providing a fast, accurate, and reliable diagnosis tool. We believe that technology can revolutionize the way we approach healthcare, and we're excited to be at the forefront of this innovation.")
 
-# Add contact information
-st.markdown("## Contact Us")
-st.write("If you have any questions, feedback, or just want to say hi, feel free to reach out to us at hello@healthvision.com. We'd love to hear from you!")
+
