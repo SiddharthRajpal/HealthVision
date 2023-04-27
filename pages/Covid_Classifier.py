@@ -3,7 +3,11 @@ import imagerec
 import pandas as pd
 import random
 
-
+st.set_page_config(
+    page_title="HealthVision AI",
+    page_icon=":dna:",
+    initial_sidebar_state="expanded",
+)
 st.title("Covid X-Ray Predictor")
 
 st.write("COVID-19 is a highly infectious respiratory illness caused by the SARS-CoV-2 virus. It first emerged in Wuhan, China in late 2019 and quickly spread to become a global pandemic. Symptoms of COVID-19 can range from mild (fever, cough, fatigue, body aches) to severe (difficulty breathing, pneumonia, acute respiratory distress syndrome) and it can lead to death in some cases, especially in elderly people and those with underlying health conditions. The virus is primarily spread through respiratory droplets when an infected person coughs, sneezes, talks or breathes, and can also be spread by touching a surface contaminated with the virus and then touching one's mouth, nose, or eyes. Prevention measures include frequent hand washing, wearing masks, social distancing, and vaccination.")
