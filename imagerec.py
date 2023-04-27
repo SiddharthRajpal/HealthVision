@@ -1,12 +1,12 @@
 from keras.models import load_model  
 from PIL import Image, ImageOps  
 import numpy as np
-def imagerecognise(path,modelpath,labelpath):
+def imagerecognise(uploadedfile,modelpath,labelpath):
     np.set_printoptions(suppress=True)
     model = load_model(modelpath, compile=False)
     class_names = open(labelpath, "r").readlines()
     data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
-    image = Image.open(path).convert("RGB")
+    image = Image.open(uploadedfile).convert("RGB")
     size = (224, 224)
     image = ImageOps.fit(image, size, Image.Resampling.LANCZOS)
     image_array = np.asarray(image)
