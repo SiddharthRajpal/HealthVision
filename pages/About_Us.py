@@ -7,14 +7,14 @@ st.set_page_config(page_title='About Us | HealthVision')
 neev = {
     'name': 'Neev Datta',
     'title': 'Co-Founder',
-    'bio': 'Neev is a passionate developer and entrepreneur with a background in computer science. He loves building products that solve real-world problems and has a particular interest in healthcare technology. In his free time, he enjoys playing basketball and reading science fiction.',
+    'bio': 'I am a computer geek who loves coding, creating 3D art, and developing games. Over the last 2 years, I have mastered Python, C#, C++, HTML, CSS, Java, JavaScript, Dart, Rust and C. One of my specialities is creating entirely computer-generated scenes in Blender. I also have invested many hours into mastering Unreal Engine and Unity. Ignoring computers I am also an aspiring professional racer in the Indian F4 Championship.',
 
 }
 
 siddharth = {
     'name': 'Siddharth Rajpal',
     'title': 'Co-Founder',
-    'bio': 'Siddharth is a creative thinker and problem solver with a strong foundation of mathematics and engineering. He is driven by a desire to use technology to make the world a better place and has a keen interest in AI and machine learning. In his free time, he enjoys reading books and playing guitar.',
+    'bio': 'In my leisure time, I enjoy coding and possess proficiency in eight programming languages. Additionally, I indulge in reading books and have a firm grasp of mathematics and physics. Other than that I have a keen interest in AI. In addition to my coding expertise, I am also keenly interested in 3D art and have honed my skills with the Blender software. I am so passionate about it that I even have an Instagram page dedicated solely to showcasing my creations. Furthermore, I love 3D printing technology and enjoy experimenting with it whenever possible.',
 }
 
 # Define page layout
