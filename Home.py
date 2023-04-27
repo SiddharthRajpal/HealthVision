@@ -7,7 +7,10 @@ st.set_page_config(
     page_icon="🧬",
     initial_sidebar_state="expanded",
 )
-
+st.markdown(""" <style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style> """, unsafe_allow_html=True)
 components.html(
     """
     <style>
