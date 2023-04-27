@@ -2,15 +2,16 @@ import streamlit as st
 from skin_cancer import detectskin
 import pandas as pd
 import streamlit.components.v1 as components
-st.markdown(""" <style>
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-</style> """, unsafe_allow_html=True)
+
 st.set_page_config(
     page_title="HealthVision AI",
     page_icon="🧬",
     initial_sidebar_state="expanded",
 )
+st.markdown(""" <style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style> """, unsafe_allow_html=True)
 components.html(
     """
     <style>
