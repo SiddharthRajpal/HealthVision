@@ -22,5 +22,5 @@ if uploaded_file!=None:
 x = st.button("Predict")
 if x:
     with st.spinner("Predicting..."):
-        y,conf = imagerec.imagerecognise(uploaded_file,"Models/GlaucomaModel.h5","Models/GlaucomaLabels.txt")
+        y,conf = imagerec.imagerecognise(uploaded_file,"Models/GlaucomaModel2.h5","Models/GlaucomaV2Labels.txt")
     st.write(f"It is {y} with confidence {int(conf*100)}")
