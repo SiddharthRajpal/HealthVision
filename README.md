@@ -47,7 +47,7 @@ If you have the requirements already installed, you can skip this section. If no
 Our Site is hosted at this link :- [https://healthvision.streamlit.app/]
 
 ## Our Model
-Below is the summary of our CNN models which we have made using python and keras.
+Below is the summary of our CNN model which we have made using python and keras.
 
 ### Model for Covid & Pneumonia Classification
 
@@ -61,3 +61,7 @@ Below is the summary of our CNN models which we have made using python and keras
 | max_pooling2d_2 (MaxPooling2D)| (None, 26, 26, 128)      | 0           |
 | flatten (Flatten)             | (None, 86528)            | 0           |
 | dense (Dense)                 | (None, 128)              | 11075712    |
+
+As you can see this is a simple Neural Network with 8 layers.
+This model has been copied and trained on several types of data (skin cancer, glaucoma, etc.)
+
