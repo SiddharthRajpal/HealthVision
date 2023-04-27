@@ -60,7 +60,7 @@ x = st.button("Predict")
 if x:
     if uploaded_file!=None:
         with st.spinner("Predicting..."):
-            y = detectskin(uploaded_file,"https://drive.google.com/file/d/1F_P6oxL6DuK7dNa-fuhfepDeFPEhNgBu/view?usp=sharing")
+            y = detectskin(uploaded_file,"Models/skin-cancer.h5")
         
         st.header(f"It is {y}")
         st.balloons()
