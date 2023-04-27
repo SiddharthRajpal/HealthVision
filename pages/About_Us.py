@@ -14,7 +14,7 @@ neev = {
 siddharth = {
     'name': 'Siddharth Rajpal',
     'title': 'Co-Founder',
-    'bio': 'Siddharth is a creative thinker and problem solver with a strong foundation in mathematics and engineering. He is driven by a desire to use technology to make the world a better place and has a keen interest in AI and machine learning. In his free time, he enjoys reading books and playing guitar.',
+    'bio': 'Siddharth is a creative thinker and problem solver with a strong foundation of mathematics and engineering. He is driven by a desire to use technology to make the world a better place and has a keen interest in AI and machine learning. In his free time, he enjoys reading books and playing guitar.',
 }
 
 # Define page layout
