@@ -1,5 +1,6 @@
-# HealthVision
+![Health](https://user-images.githubusercontent.com/77538244/234961071-000a6abf-154d-4259-a2d3-1215f58b231d.png)
 
+# HealthVision
 This project uses deep learning algorithms and the Keras library to determine if a person has certain diseases or not from their chest x-rays and other scans. The trained model is displayed using Streamlit, which enables the user to upload an image and receive instant feedback.
 
 Essentially it uses 4 different CNN models to diagnose 4 different diseases :- Covid, Glaucoma, Skin Cancer and Pneumonia
