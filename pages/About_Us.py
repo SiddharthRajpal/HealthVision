@@ -7,7 +7,7 @@ st.set_page_config(page_title='About Us | HealthVision')
 neev = {
     'name': 'Neev Datta',
     'title': 'Co-Founder',
-    'bio': 'I am a computer geek who loves coding, creating 3D art, and developing games. Over the last 2 years, I have mastered Python, C#, C++, HTML, CSS, Java, JavaScript, Dart, Rust and C. One of my specialities is creating entirely computer-generated scenes in Blender. I also have invested many hours into mastering Unreal Engine and Unity. Ignoring computers I am also an aspiring professional racer in the Indian F4 Championship.',
+    'bio': 'I am a computer geek who loves coding, creating 3D art, and developing games. Over the last 2 years, I have mastered Python, C#, C++, HTML, CSS, Java, JavaScript, Dart, Rust and C. One of my specialities is creating entirely computer-generated scenes in Blender, I am so passionate about it that I even have an Instagram page dedicated solely to showcasing my creations. I also have invested many hours into mastering Unreal Engine and Unity. Ignoring computers I am also an aspiring professional racer in the Indian F4 Championship.',
 
 }
 
