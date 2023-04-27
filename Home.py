@@ -15,7 +15,7 @@ def page_layout():
     st.write("- Fast and accurate diagnosis of diseases")
     st.write("- Non-invasive and painless diagnosis using X-rays")
     st.write("- Accessible from anywhere, anytime")
-    st.markdown("## Why is our app unique?:")
+    st.markdown("## Why is our app unique?")
     st.write("- HealthVision combines multiple ML models into one app")
     st.write("- The app uses CNN on X-ray imagery to diagnose diseases")
     st.write("- HealthVision uses advanced algorithms to provide fast and accurate diagnosis")
