@@ -45,26 +45,5 @@ If you have the requirements already installed, you can skip this section. If no
 
 ## Usage
 
-1. Clone the repository:
-
-    ```
-    git clone https://github.com/SiddharthRajpal/Pneumonia-Recognition-With-Python.git
-    cd Pneumonia-Recognition-With-Python
-    ```
-
-2. Run the Streamlit app:
-
-    ```
-    python3 -m streamlit run main.py
-    ```
-    or 
-    ```
-    python -m streamlit run main.py
-    ```
-    or
-      ```
-    py -m streamlit run main.py
-    ```
-    
-
-3. Upload a chest x-ray image to see if a person has pneumonia or not.
+1. Go to this link :- https://siddharthrajpal-pneumonia-recognition-with-python-main-s5jwd1.streamlit.app/
+2. Upload a chest x-ray image to see if a person has pneumonia or not.
