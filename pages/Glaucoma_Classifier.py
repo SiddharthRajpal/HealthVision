@@ -2,11 +2,32 @@ import streamlit as st
 import imagerec
 import pandas as pd
 import random
+import streamlit.components.v1 as components
+
 
 st.set_page_config(
     page_title="HealthVision AI",
     page_icon=":dna:",
     initial_sidebar_state="expanded",
+)
+components.html(
+    """
+    <style>
+        p{
+            margin:0px;
+            padding:0px;
+            color: white;
+            font-family: "Source Sans Pro", sans-serif;
+            font-size: 55px;
+            font-weight: 700;
+            top: 0px;
+            right: 25%;
+            position: fixed;
+        }
+    </style>
+    <p id="effect">HealthVision AI</p>
+    """,
+    height=60,
 )
 st.title("Glaucoma Predictor")
 
