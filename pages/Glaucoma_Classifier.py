@@ -3,7 +3,11 @@ import imagerec
 import pandas as pd
 import random
 
-
+st.set_page_config(
+    page_title="HealthVision AI",
+    page_icon=":dna:",
+    initial_sidebar_state="expanded",
+)
 st.title("Glaucoma Predictor with OCT Scans of eyes")
 
 st.write("Glaucoma is a group of eye diseases that damage the optic nerve, which connects the eye to the brain. This damage can cause irreversible vision loss and blindness if left untreated. The most common type of glaucoma, open-angle glaucoma, occurs when fluid builds up in the eye and increases pressure on the optic nerve.")
