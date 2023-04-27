@@ -1,4 +1,4 @@
-from keras.models import load_model  
+from tensorflow.keras.models import load_model 
 from PIL import Image, ImageOps  
 import numpy as np
 def imagerecognise(uploadedfile,modelpath,labelpath):
@@ -18,5 +18,4 @@ def imagerecognise(uploadedfile,modelpath,labelpath):
     confidence_score = prediction[0][index]
     # print("Class:", class_name[2:], end="")
     # print("Confidence Score:", confidence_score)
-    return(class_name[2:])
-
+    return(class_name[2:],confidence_score)
