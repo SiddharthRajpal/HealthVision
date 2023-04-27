@@ -1,7 +1,11 @@
 import streamlit as st
 from skin_cancer import detectskin
 import pandas as pd
-
+st.set_page_config(
+    page_title="HealthVision AI",
+    page_icon="🧬",
+    initial_sidebar_state="expanded",
+)
 margins_css = """
     <style>
         .main > div {
