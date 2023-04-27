@@ -3,7 +3,11 @@ import imagerec
 import pandas as pd
 import random
 
-
+st.set_page_config(
+    page_title="HealthVision AI",
+    page_icon=":dna:",
+    initial_sidebar_state="expanded",
+)
 st.title("Pneumonia X-Ray Predictor")
 
 st.write("Pneumonia is an infection that inflames the air sacs in one or both lungs, causing them to fill with fluid or pus. The infection can be caused by a variety of microorganisms, including bacteria, viruses, and fungi. Pneumonia can be acquired in the community or in a hospital setting, and it can range in severity from mild to life-threatening.")
