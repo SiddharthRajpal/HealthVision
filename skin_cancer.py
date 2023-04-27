@@ -5,7 +5,7 @@ import numpy as np
 def detectskin(img,model):
 
     # load the saved model
-    model = load_model('skin-cancer.h5')
+    model = load_model(model)
 
     # load the test image
     test_image = image.load_img(img, target_size=(224, 224))
