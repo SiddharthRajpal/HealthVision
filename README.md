@@ -65,7 +65,7 @@ itive
 - ![PNEUMONIA(4268)](https://user-images.githubusercontent.com/77538244/234957766-d2c1d207-6719-43bb-9865-9202b9d3f136.jpg)
 
 #### Negative
-- ![NORMAL(1559)](https://user-images.githubusercontent.com/77538244/234957860-709f2738-7acf-4dfb-b9f6-3d3bb3688986.jpg)
+- ![NORMAL(1559)](https://user-images.githubusercontent.com/77538244/234957860-709f2738-7acf-4dfb-b9f6-3d3bb3688986.jpg = 250x250)
 
 ### Skin Cancer
 #### Positive (Malignant)
