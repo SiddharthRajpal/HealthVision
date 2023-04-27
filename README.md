@@ -48,7 +48,7 @@ If you have the requirements already installed, you can skip this section. If no
 1. Clone the repository:
 
     ```
-    git clone https://github.com/<username>/<repository-name>.git
+    git clone https://github.com/SiddharthRajpal/Pneumonia-Recognition-With-Python.git
     cd <repository-name>
     ```
 
