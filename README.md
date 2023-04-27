@@ -1,6 +1,6 @@
-# Pneumonia Detection using Chest X-rays
+# HealthVision
 
-This project uses deep learning algorithms and Keras library to determine if a person has pneumonia or not from their chest x-rays. The trained model is displayed using Streamlit, which enables the user to upload an image and receive instant feedback.
+This project uses deep learning algorithms and the Keras library to determine if a person has certain diseases or not from their chest x-rays and other scans. The trained model is displayed using Streamlit, which enables the user to upload an image and receive instant feedback.
 
 
 
@@ -44,9 +44,7 @@ If you have the requirements already installed, you can skip this section. If no
 
 
 ## Usage
-
-1. Go to this link :- https://siddharthrajpal-pneumonia-recognition-with-python-main-s5jwd1.streamlit.app/
-2. Upload a chest x-ray image to see if a person has pneumonia or not.
+Our Site is hosted at this link :- https://siddharthrajpal-pneumonia-recognition-with-python-main-s5jwd1.streamlit.app/
 
 ## Our Model
 Below is the summary of our CNN models which we have made using python and keras.
