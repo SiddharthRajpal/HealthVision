@@ -6,48 +6,8 @@ Essentially it uses 4 different CNN models to diagnose 4 different diseases :- C
 Covid and Pnemonia are detected using chest X-ray scans of the patient while Gluacoma uses an internal scan of the eye and Skin Cancer is detected
 using external pictures
 
-## Requirements
-
-The following libraries are required for running this project:
-
-- TensorFlow
-- Keras
-- Pillow
-- Streamlit
 
 
-## Installation
-
-If you have the requirements already installed, you can skip this section. If not, follow the steps below to install them:
-
-1. Install TensorFlow:
-
-    ```
-    pip install tensorflow
-    ```
-
-2. Install Keras:
-
-    ```
-    pip install keras
-    ```
-
-3. Install Pillow:
-
-    ```
-    pip install pillow
-    ```
-
-4. Install Streamlit:
-
-    ```
-    pip install streamlit
-    ```
-
-
-## Usage
-Our Site is hosted at this link :- [https://healthvisionai.streamlit.app/]
-- Also here are some "Executors" for you to use while testing our software.. these are just references and you can use any image ou have :) :- [https://github.com/SiddharthRajpal/HealthVision/tree/main/Executors]
 
 ## Our Model
 Below is the summary of our CNN model which we have made using python and keras.
@@ -96,5 +56,45 @@ itive
 
 #### Negative (Benign)
 -  ![69](https://user-images.githubusercontent.com/77538244/234958000-bae1b9bf-c3bb-4af2-b55b-2f8bed152daf.jpg)
+## Requirements
+
+The following libraries are required for running this project:
+
+- TensorFlow
+- Keras
+- Pillow
+- Streamlit
 
 
+## Installation
+
+If you have the requirements already installed, you can skip this section. If not, follow the steps below to install them:
+
+1. Install TensorFlow:
+
+    ```
+    pip install tensorflow
+    ```
+
+2. Install Keras:
+
+    ```
+    pip install keras
+    ```
+
+3. Install Pillow:
+
+    ```
+    pip install pillow
+    ```
+
+4. Install Streamlit:
+
+    ```
+    pip install streamlit
+    ```
+
+
+## Usage
+Our Site is hosted at this link :- [https://healthvisionai.streamlit.app/]
+- Also here are some "Executors" for you to use while testing our software.. these are just references and you can use any image you have :- [https://github.com/SiddharthRajpal/HealthVision/tree/main/Executors]
