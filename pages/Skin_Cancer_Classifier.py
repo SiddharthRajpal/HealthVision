@@ -2,6 +2,7 @@ import streamlit as st
 from skin_cancer import detectskin
 import pandas as pd
 import random
+import imagerec
 import streamlit.components.v1 as components
 st.set_page_config(
     page_title="HealthVision AI",
@@ -58,9 +59,6 @@ if uploaded_file!=None:
     st.image(uploaded_file)
 x = st.button("Predict")
 if x:
-    if uploaded_file!=None:
-        with st.spinner("Predicting..."):
-            y = detectskin(uploaded_file,"Models/skin-cancer-2.h5")
-        
-        st.header(f"It is {y}")
-        st.balloons()
+    with st.spinner("Predicting..."):
+        y,conf = imagerec.imagerecognise(uploaded_file,"Models/skin-cancer-2.h5","Models/SkinCancerLabel.txt")
+    st.header(f"It is {y} ")
