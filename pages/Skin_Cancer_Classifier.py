@@ -17,7 +17,7 @@ components.html(
             padding:0px;
             color: white;
             font-family: "Source Sans Pro", sans-serif;
-            font-size: 55px;
+            font-size: max(8vw, 20px);
             font-weight: 700;
             top: 0px;
             right: 25%;
@@ -26,7 +26,7 @@ components.html(
     </style>
     <p id="effect">HealthVision AI</p>
     """,
-    height=60,
+    height=69,
 )
 
 
