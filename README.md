@@ -74,43 +74,6 @@ itive
 
 #### Negative (Benign)
   ![69](https://user-images.githubusercontent.com/77538244/234958000-bae1b9bf-c3bb-4af2-b55b-2f8bed152daf.jpg)
-## Requirements
-
-The following libraries are required for running this project:
-
-- TensorFlow
-- Keras
-- Pillow
-- Streamlit
-
-
-## Installation
-
-If you have the requirements already installed, you can skip this section. If not, follow the steps below to install them:
-
-1. Install TensorFlow:
-
-    ```
-    pip install tensorflow
-    ```
-
-2. Install Keras:
-
-    ```
-    pip install keras
-    ```
-
-3. Install Pillow:
-
-    ```
-    pip install pillow
-    ```
-
-4. Install Streamlit:
-
-    ```
-    pip install streamlit
-    ```
 
 
 ## Usage
