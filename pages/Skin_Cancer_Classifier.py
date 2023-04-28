@@ -24,7 +24,7 @@ components.html(
             position: fixed;
         }
         p{
-            font-size: 1.2rem;
+            font-size: 2rem;
         }
     </style>
     <p id="effect">HealthVision AI</p>
