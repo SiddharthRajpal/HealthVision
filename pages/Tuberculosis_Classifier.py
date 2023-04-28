@@ -74,12 +74,14 @@ x = st.button("Predict")
 if x:
     with st.spinner("Predicting..."):
         y,conf = imagerec.imagerecognise(uploaded_file,"Models/tuberculosis_model.h5","Models/tb_labels.txt")
-    str = f"It is {y}"
+    st.write(y)
+    
     components.html(
         """
         <style>
         h1{
-            color: white;
+            color: blue;
+            font-family: "Source Sans Pro", sans-serif;
         }
         </style>
         <h1>Normal</h1>
