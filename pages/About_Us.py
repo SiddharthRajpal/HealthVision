@@ -40,7 +40,7 @@ components.html(
             font-size: max(8vw, 20px);
             font-weight: 700;
             top: 0px;
-            right: 25%;
+            right: 50%;
             position: fixed;
             background: -webkit-linear-gradient(0.25turn,#FF4C4B, #FFFB80);
             -webkit-background-clip: text;
