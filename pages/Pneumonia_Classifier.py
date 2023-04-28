@@ -47,7 +47,7 @@ st.write("Pneumonia is an infection that inflames the air sacs in one or both lu
 st.divider()
 st.write("Machine learning (ML) can play an important role in pneumonia prediction by analyzing medical images and identifying patterns that may be indicative of the disease. For example, ML models can be trained on large datasets of chest X-rays and CT scans to learn features that distinguish between normal lungs and those affected by pneumonia.")
 st.divider()
-st.write("We have developed A Convolutional Neural Network (CNN) to predict wether the lung scan has Pneumonia or not. It has been trained on more than 10,000 images divided into two classes, to upto 50 epochs.")
+st.write("We have developed A Convolutional Neural Network (CNN) to predict whether the lung scan has Pneumonia or not. It has been trained on more than 10,000 images divided into two classes, to upto 50 epochs.")
 st.divider()
 
 uploaded_file = st.file_uploader("Choose a File", type=['jpg','png','jpeg'])
