@@ -8,6 +8,7 @@ Covid and Pnemonia are detected using chest X-ray scans of the patient while Glu
 using external pictures
 
 # Trailer
+Watch our Trailer here :- [https://drive.google.com/file/d/1rsuZLO70enTyi4aTBziKADpSQ04UE9KP/view?usp=sharing]
 
 
 
