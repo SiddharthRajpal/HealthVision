@@ -75,17 +75,29 @@ if x:
     with st.spinner("Predicting..."):
         y,conf = imagerec.imagerecognise(uploaded_file,"Models/tuberculosis_model.h5","Models/tb_labels.txt")
     st.write(y)
-    
-    components.html(
-        """
-        <style>
-        h1{
-            color: blue;
-            font-family: "Source Sans Pro", sans-serif;
-        }
-        </style>
-        <h1>Normal</h1>
-        """
-    )
+    if y == "Normal":
+        components.html(
+            """
+            <style>
+            h1{
+                color: #33B0F7;
+                font-family: "Source Sans Pro", sans-serif;
+            }
+            </style>
+            <h1>Normal</h1>
+            """
+        )
+     else:
+        components.html(
+            """
+            <style>
+            h1{
+                color: red;
+                font-family: "Source Sans Pro", sans-serif;
+            }
+            </style>
+            <h1>Tuberculosis</h1>
+            """
+        )
     
 
