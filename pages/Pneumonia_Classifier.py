@@ -17,22 +17,28 @@ footer {visibility: hidden;}
 components.html(
     """
     <style>
-        p{
+        #effect{
             margin:0px;
             padding:0px;
-            color: white;
             font-family: "Source Sans Pro", sans-serif;
             font-size: max(8vw, 20px);
             font-weight: 700;
             top: 0px;
             right: 25%;
             position: fixed;
+            background: -webkit-linear-gradient(0.25turn,#FF4C4B, #FFFB80);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p{
+            font-size: 2rem;
         }
     </style>
     <p id="effect">HealthVision AI</p>
     """,
     height=69,
 )
+
 st.write('<style>div.row-widget.stMarkdown { font-size: 24px; }</style>', unsafe_allow_html=True)
 
 st.title("Pneumonia X-Ray Predictor")
