@@ -75,7 +75,15 @@ if x:
     with st.spinner("Predicting..."):
         y,conf = imagerec.imagerecognise(uploaded_file,"Models/tuberculosis_model.h5","Models/tb_labels.txt")
     str = f"It is {y}"
-#     if y == "Normal":
-    st.header(":blue["+str+"]")
+    components.html(
+        """
+        <style>
+        h1{
+            color: white;
+        }
+        </style>
+        <h1>Normal</h1>
+        """
+    )
     
 
