@@ -95,7 +95,7 @@ if x:
             <h1>It is Positive for Glioma</h1>
             """
         )
-     elif y.strip() == "Meningioma":
+    elif y.strip() == "Meningioma":
         components.html(
             """
             <style>
@@ -109,7 +109,7 @@ if x:
             <h1>It is Positive for Meningioma</h1>
             """
         )
-     else:
+    else:
         components.html(
             """
             <style>
