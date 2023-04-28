@@ -40,7 +40,7 @@ st.markdown(""" <style>
 footer {visibility: hidden;}
 </style> """, unsafe_allow_html=True)
 
-st.title("Skin Cancer Predictor")
+st.title("Tuberculosis Predictor")
 
 st.write('<style>div.row-widget.stMarkdown { font-size: 1.2rem; }</style>', unsafe_allow_html=True)
 
