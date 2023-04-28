@@ -23,6 +23,9 @@ components.html(
             right: 25%;
             position: fixed;
         }
+        p{
+            font-size: 1.2rem;
+        }
     </style>
     <p id="effect">HealthVision AI</p>
     """,
