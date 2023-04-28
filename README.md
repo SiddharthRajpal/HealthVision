@@ -25,7 +25,7 @@ Below is the summary of our CNN model which we have made using python and keras.
 | flatten (Flatten)             | (None, 86528)            | 0           |
 | dense (Dense)                 | (None, 128)              | 11075712    |
 
-As you can see this is a simple Neural Network with 8 layers.
+As you can see this is a simple Neural Network with 8 layers. (this had an accuracy of approx 0.93 on average)
 Each Layer has a specific job in order to get the desired output, they are :-
 
 - Convolutional layer (conv2d): This layer takes an input image and applies a set of 32 filters to produce 32 output feature maps. Each filter extracts a particular feature from the image. The output of this layer has a shape of (None, 222, 222, 32).
