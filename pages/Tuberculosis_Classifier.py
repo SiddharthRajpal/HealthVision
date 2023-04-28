@@ -80,7 +80,9 @@ if x:
             """
             <style>
             h1{
-                color: #33B0F7;
+                background: -webkit-linear-gradient(0.25turn,#FF4C4B, #FFFB80);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
                 font-family: "Source Sans Pro", sans-serif;
             }
             </style>
@@ -92,7 +94,9 @@ if x:
             """
             <style>
             h1{
-                color: #FF4C4B;
+                background: -webkit-linear-gradient(0.25turn,#01CCF7, #02AEF6);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
                 font-family: "Source Sans Pro", sans-serif;
             }
             </style>
