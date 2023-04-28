@@ -74,7 +74,7 @@ x = st.button("Predict")
 if x:
     with st.spinner("Predicting..."):
         y,conf = imagerec.imagerecognise(uploaded_file,"Models/tuberculosis_model.h5","Models/tb_labels.txt")
-    str = f"It is :blue[pop]"
+    str = f"It is :blue[{y}]"
     #if y == "Normal":
     st.header(str)
 
