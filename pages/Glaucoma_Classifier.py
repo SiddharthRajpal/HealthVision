@@ -48,7 +48,7 @@ st.write("Glaucoma is a group of eye diseases that damage the optic nerve, which
 st.divider()
 st.write("The problems caused by glaucoma include a gradual loss of peripheral (side) vision, which can go unnoticed until it becomes severe. In advanced stages, central vision can also be affected. While there is no cure for glaucoma, early detection and treatment can help slow or prevent vision loss. Treatment may include eye drops, medication, laser surgery, or traditional surgery to lower the pressure in the eye.")
 st.divider()
-st.write("hence, we have developed A Convolutional Neural Network (CNN) to predict whether the Eye scan has Glaucoma or not. It has been trained on more than 500 images divided into two classes, to upto 50 epochs.")
+st.write("Hence, we have developed A Convolutional Neural Network (CNN) to predict whether the Eye scan has Glaucoma or not. It has been trained on more than 500 images divided into two classes, to upto 50 epochs.")
 st.divider()
 uploaded_file = st.file_uploader("Choose a File", type=['jpg','png','jpeg'])
 
