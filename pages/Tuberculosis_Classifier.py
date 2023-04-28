@@ -75,7 +75,7 @@ if x:
     with st.spinner("Predicting..."):
         y,conf = imagerec.imagerecognise(uploaded_file,"Models/tuberculosis_model.h5","Models/tb_labels.txt")
     st.write(y)
-    if y == "Normal":
+    if y.strip() == "Normal":
         components.html(
             """
             <style>
