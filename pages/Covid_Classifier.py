@@ -68,7 +68,7 @@ if x:
                 font-family: "Source Sans Pro", sans-serif;
             }
             </style>
-            <h1>It not positive for Covid 19</h1>
+            <h1>It is Negative for Covid 19</h1>
             """
         )
     else:
@@ -82,6 +82,6 @@ if x:
                 font-family: "Source Sans Pro", sans-serif;
             }
             </style>
-            <h1>It positive for Covid 19</h1>
+            <h1>It is Positive for Covid 19</h1>
             """
         )
