@@ -42,7 +42,7 @@ footer {visibility: hidden;}
 
 st.title("Skin Cancer Predictor")
 
-st.write('<style>div.row-widget.stMarkdown { font-size: 24px; }</style>', unsafe_allow_html=True)
+st.write('<style>div.row-widget.stMarkdown { font-size: 1.2rem; }</style>', unsafe_allow_html=True)
 
 
 st.write("Skin cancer is a type of cancer that develops in the cells of the skin. It is the most common type of cancer worldwide, and its incidence is increasing every year. There are three main types of skin cancer: basal cell carcinoma, squamous cell carcinoma, and melanoma. Basal cell and squamous cell carcinomas are the most common types and are usually caused by prolonged exposure to the sun. Melanoma, while less common, is the most dangerous type and can spread to other parts of the body if left untreated. Symptoms of skin cancer may include changes in the appearance of moles or other skin lesions, such as growth, bleeding, or itching. Early detection and treatment are crucial for successful treatment and can greatly improve the prognosis. Prevention measures include avoiding prolonged exposure to the sun, using sunscreen, and wearing protective clothing.")
