@@ -58,5 +58,5 @@ if uploaded_file!=None:
 x = st.button("Predict")
 if x:
     with st.spinner("Predicting..."):
-        y,conf = imagerec.imagerecognise(uploaded_file,"Models/SkinCancerModel.h5","Models/SkinCancerLabel.txt")
+        y,conf = imagerec.imagerecognise(uploaded_file,"Models/tuberculosis_model.h5","Models/tb_labels.txt")
     st.header(f"It is {y} ")
