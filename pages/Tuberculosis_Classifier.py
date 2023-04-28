@@ -87,7 +87,7 @@ if x:
             <h1>Normal</h1>
             """
         )
-     else:
+    else:
         components.html(
             """
             <style>
