@@ -1,4 +1,4 @@
-0 Glioma (You have a tumour)
-1 Meningioma (You have a tumour)
+0 Glioma 
+1 Meningioma 
 2 Safe
-3 Pituitary (You have a tumour)
+3 Pituitary 
