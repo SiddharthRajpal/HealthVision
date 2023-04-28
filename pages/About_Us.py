@@ -11,6 +11,7 @@ st.markdown(""" <style>
 footer {visibility: hidden;}
 img{border-radius: 10px;}
 </style> """, unsafe_allow_html=True)
+st.write('<style>div.row-widget.stMarkdown { font-size: 24px; }</style>', unsafe_allow_html=True)
 
 # Define Neev Datta and Siddharth Rajpal
 neev = {
