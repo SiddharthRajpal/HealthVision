@@ -42,7 +42,7 @@ components.html(
             top: 0px;
             left: 0px;
             position: fixed;
-            background: -webkit-linear-gradient(0.25turn,#20D2FE, #CF1A7D);
+            background: -webkit-linear-gradient(0.25turn,#20D2FE, #5292FE);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
