@@ -12,7 +12,7 @@ st.set_page_config(
 components.html(
     """
     <style>
-        p{
+        .effect{
             margin:0px;
             padding:0px;
             color: white;
