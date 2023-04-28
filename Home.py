@@ -16,22 +16,28 @@ footer {visibility: hidden;}
 components.html(
     """
     <style>
-        p{
+        #effect{
             margin:0px;
             padding:0px;
-            color: white;
             font-family: "Source Sans Pro", sans-serif;
             font-size: max(8vw, 20px);
             font-weight: 700;
             top: 0px;
             right: 25%;
             position: fixed;
+            background: -webkit-linear-gradient(0.25turn,#FF4C4B, #FFFB80);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p{
+            font-size: 2rem;
         }
     </style>
     <p id="effect">HealthVision AI</p>
     """,
     height=69,
 )
+
 
 def page_layout():
     st.write("HealthVision is an app that combines various ML models into one in order to determine if you have a disease, using CNN and X-rays of the patients. The app was made by Neev Datta and Siddharth Rajpal for a project. The app uses advanced algorithms to diagnose various diseases, including lung cancer, tuberculosis, and pneumonia.")
