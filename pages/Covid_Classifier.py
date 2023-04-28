@@ -56,4 +56,32 @@ x = st.button("Predict")
 if x:
     with st.spinner("Predicting..."):
         y,conf = imagerec.imagerecognise(uploaded_file,"Models/CovidModel.h5","Models/CovidLabels.txt")
-    st.header(f"It is {y} For Covid-19 ")
+    if y.strip() == "Negative":
+        components.html(
+            """
+            <style>
+            h1{
+                
+                background: -webkit-linear-gradient(0.25turn,#01CCF7, #8BF5F5);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-family: "Source Sans Pro", sans-serif;
+            }
+            </style>
+            <h1>It not positive for Covid 19</h1>
+            """
+        )
+    else:
+        components.html(
+            """
+            <style>
+            h1{
+                background: -webkit-linear-gradient(0.25turn,#FF4C4B, #F70000);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-family: "Source Sans Pro", sans-serif;
+            }
+            </style>
+            <h1>It positive for Covid 19</h1>
+            """
+        )
