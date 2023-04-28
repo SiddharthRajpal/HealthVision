@@ -40,11 +40,11 @@ with col1:
 with col2:
     st.image("Images/me.png", width=200)
     st.write(siddharth['name'])
-
+st.divider()
 # Add bios
 st.markdown(f"### {neev['name']}")
 st.write(neev['bio'])
-
+st.divider()
 st.markdown(f"### {siddharth['name']}")
 st.write(siddharth['bio'])
 
