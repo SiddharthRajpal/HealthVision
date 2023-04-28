@@ -45,9 +45,24 @@ st.title("Skin Cancer Predictor")
 st.write('<style>div.row-widget.stMarkdown { font-size: 1.2rem; }</style>', unsafe_allow_html=True)
 
 
-st.write("Skin cancer is a type of cancer that develops in the cells of the skin. It is the most common type of cancer worldwide, and its incidence is increasing every year. There are three main types of skin cancer: basal cell carcinoma, squamous cell carcinoma, and melanoma. Basal cell and squamous cell carcinomas are the most common types and are usually caused by prolonged exposure to the sun. Melanoma, while less common, is the most dangerous type and can spread to other parts of the body if left untreated. Symptoms of skin cancer may include changes in the appearance of moles or other skin lesions, such as growth, bleeding, or itching. Early detection and treatment are crucial for successful treatment and can greatly improve the prognosis. Prevention measures include avoiding prolonged exposure to the sun, using sunscreen, and wearing protective clothing.")
+
+st.write("Tuberculosis (TB) is an infectious disease caused by the bacterium Mycobacterium tuberculosis. It primarily affects the lungs, but can also affect other parts of the body such as the brain, kidneys, and bones. TB is spread through the air when an infected person coughs or sneezes. People with weakened immune systems, such as those living with HIV/AIDS, are particularly susceptible to TB.")
+st.write("The symptoms of TB include coughing, fever, fatigue, weight loss, and night sweats. TB can be diagnosed through a variety of tests, including chest X-rays and sputum tests, which involve analyzing a sample of phlegm from the patient. Treatment for TB typically involves a long course of antibiotics. Patients must complete the full course of antibiotics, even if they begin to feel better before the treatment is finished.")
+st.write("TB is a major global health problem, particularly in developing countries. According to the World Health Organization, TB is one of the top 10 causes of death worldwide, and in 2019, an estimated 10 million people fell ill with TB. Efforts to combat TB include improving public health infrastructure, increasing access to TB testing and treatment, and developing new TB drugs and vaccines.")
+
+
 st.divider()
-st.write("Machine learning (ML) is playing an increasingly important role in the detection of skin cancer. ML algorithms can be trained on large datasets of images of skin lesions to identify patterns and features that are associated with different types of skin cancer. This allows ML algorithms to classify skin lesions accurately and quickly, often outperforming human experts in terms of accuracy.")
+st.write(""""
+Machine learning and specifically Convolutional Neural Networks (CNNs) have shown promising results in the detection of tuberculosis (TB) in lung X-rays.
+
+CNNs are a type of neural network that are particularly suited for image processing tasks. They work by learning to identify relevant features in the input images, which are then used to make a prediction. In the case of TB detection, CNNs are trained on large datasets of lung X-rays, with some images labeled as "TB positive" and others labeled as "TB negative".
+
+The trained CNN can then be used to classify new lung X-rays as either positive or negative for TB. In practice, the CNN output can be used as a "second opinion" for radiologists, who can review the CNN output along with their own analysis to make a diagnosis.
+
+The use of CNNs in TB detection has several potential advantages over traditional methods. For example, CNNs can analyze images much faster than human experts, which could speed up the diagnosis process. Additionally, CNNs are not subject to the same biases and variability as human experts, which could improve the accuracy and consistency of TB diagnoses.
+
+Overall, ML and CNNs have the potential to be a valuable tool in the fight against TB, especially in areas with limited access to expert medical resources.
+""")
 st.write("We have developed A Convolutional Neural Network (CNN) to predict wether the skin is benign or malignant. It has been trained on more than 1,000 images divided into two classes, to upto 20 epochs.")
 st.divider()
 uploaded_file = st.file_uploader("Choose a File", type=['jpg','png','jpeg'])
