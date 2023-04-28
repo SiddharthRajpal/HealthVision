@@ -15,13 +15,15 @@ components.html(
         #effect{
             margin:0px;
             padding:0px;
-            color: white;
             font-family: "Source Sans Pro", sans-serif;
             font-size: max(8vw, 20px);
             font-weight: 700;
             top: 0px;
             right: 25%;
             position: fixed;
+            background: -webkit-linear-gradient(#eee, #333);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
         p{
             font-size: 2rem;
