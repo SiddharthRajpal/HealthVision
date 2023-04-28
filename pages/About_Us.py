@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit import compnents
+from streamlit import components
 
 # Set page title
 st.set_page_config(
