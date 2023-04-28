@@ -72,7 +72,7 @@ if x:
                 font-family: "Source Sans Pro", sans-serif;
             }
             </style>
-            <h1>It is not Pneumomnia</h1>
+            <h1>It is not Glaucoma</h1>
             """
         )
     else:
@@ -86,6 +86,6 @@ if x:
                 font-family: "Source Sans Pro", sans-serif;
             }
             </style>
-            <h1>It is Pneumomnia</h1>
+            <h1>It is Glaucoma</h1>
             """
         )
