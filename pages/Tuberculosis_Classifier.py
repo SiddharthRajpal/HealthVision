@@ -92,7 +92,7 @@ if x:
             """
             <style>
             h1{
-                color: #8C3438;
+                color: #FF4C4B;
                 font-family: "Source Sans Pro", sans-serif;
             }
             </style>
