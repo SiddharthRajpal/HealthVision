@@ -78,7 +78,7 @@ if x:
                 font-family: "Source Sans Pro", sans-serif;
             }
             </style>
-            <h1>It is Negative for Covid 19</h1>
+            <h1>It is Negative for Brain Tumors</h1>
             """
         )
     elif y.strip() == "Glioma":
