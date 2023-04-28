@@ -40,7 +40,7 @@ components.html(
     height=69,
 )
 
-st.title("Brain Tumuor Predictor")
+st.title("Brain Tumor Predictor")
 
 st.write('<style>div.row-widget.stMarkdown { font-size: 24px; }</style>', unsafe_allow_html=True)
 
