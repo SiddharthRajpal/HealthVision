@@ -58,15 +58,15 @@ st.write("The problems caused by glaucoma include a gradual loss of peripheral (
 st.divider()
 st.write("Hence, we have developed A Convolutional Neural Network (CNN) to predict whether the MRI Scan of the brain has a tumour or not. It has been trained on more than 1000 images divided into four classes, to upto 50 epochs.")
 st.divider()
-uploaded_file2 = st.file_uploader("Choose a File", type=['jpg','png','jpeg'])
+uploaded_file = st.file_uploader("Choose a File", type=['jpg','png','jpeg'])
 
 
-if uploaded_file2!=None:
+if uploaded_file!=None:
     st.image(uploaded_file)
 x = st.button("Predict")
 if x:
     with st.spinner("Predicting..."):
-        y,conf = imagerec.imagerecognise(uploaded_file2,"Models/BrainTumuorModel.h5","Models/BrainTumuorLabels.txt")
+        y,conf = imagerec.imagerecognise(uploaded_file,"Models/BrainTumuorModel.h5","Models/BrainTumuorLabels.txt")
     if y.strip() == "Safe":
         components.html(
             """
