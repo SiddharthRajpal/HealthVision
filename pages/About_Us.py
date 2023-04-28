@@ -28,7 +28,30 @@ siddharth = {
 }
 
 # Define page layout
-st.write(f"# About Us")
+components.html(
+    """
+    <style>
+        #effect{
+            margin:0px;
+            padding:0px;
+            font-family: "Source Sans Pro", sans-serif;
+            font-size: max(8vw, 20px);
+            font-weight: 700;
+            top: 0px;
+            right: 25%;
+            position: fixed;
+            background: -webkit-linear-gradient(0.25turn,#FF4C4B, #FFFB80);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p{
+            font-size: 2rem;
+        }
+    </style>
+    <p id="effect">About Us</p>
+    """,
+    height=69,
+)
 st.write(f"## Founders")
 
 # Add photos
