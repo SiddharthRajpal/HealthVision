@@ -39,6 +39,7 @@ components.html(
     """,
     height=69,
 )
+uploaded_file = None
 
 st.title("Brain Tumor Predictor")
 
