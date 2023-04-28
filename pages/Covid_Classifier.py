@@ -34,6 +34,7 @@ components.html(
 )
 
 st.title("Covid X-Ray Predictor")
+st.write('<style>div.row-widget.stMarkdown { font-size: 24px; }</style>', unsafe_allow_html=True)
 
 st.write("COVID-19 is a highly infectious respiratory illness caused by the SARS-CoV-2 virus. It first emerged in Wuhan, China in late 2019 and quickly spread to become a global pandemic. Symptoms of COVID-19 can range from mild (fever, cough, fatigue, body aches) to severe (difficulty breathing, pneumonia, acute respiratory distress syndrome) and it can lead to death in some cases, especially in elderly people and those with underlying health conditions. The virus is primarily spread through respiratory droplets when an infected person coughs, sneezes, talks or breathes, and can also be spread by touching a surface contaminated with the virus and then touching one's mouth, nose, or eyes. Prevention measures include frequent hand washing, wearing masks, social distancing, and vaccination.")
 st.write("Now, Covid cases are on the rise again... to prevent another pandemic like 2020, there is a need to classify Covid cases as soon as possible")
