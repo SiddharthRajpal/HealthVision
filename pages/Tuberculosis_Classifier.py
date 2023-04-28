@@ -52,7 +52,7 @@ st.write("TB is a major global health problem, particularly in developing countr
 
 
 st.divider()
-st.write(""""
+st.write("""
 Machine learning and specifically Convolutional Neural Networks (CNNs) have shown promising results in the detection of tuberculosis (TB) in lung X-rays.
 
 CNNs are a type of neural network that are particularly suited for image processing tasks. They work by learning to identify relevant features in the input images, which are then used to make a prediction. In the case of TB detection, CNNs are trained on large datasets of lung X-rays, with some images labeled as "TB positive" and others labeled as "TB negative".
@@ -63,7 +63,7 @@ The use of CNNs in TB detection has several potential advantages over traditiona
 
 Overall, ML and CNNs have the potential to be a valuable tool in the fight against TB, especially in areas with limited access to expert medical resources.
 """)
-st.write("We have developed A Convolutional Neural Network (CNN) to predict wether the skin is benign or malignant. It has been trained on more than 1,000 images divided into two classes, to upto 20 epochs.")
+st.write("We have developed A Convolutional Neural Network (CNN) to predict whether a xray of lungs has tuberculosis or not. It has been trained on more than 4,200 images divided into two classes, to upto 50 epochs.")
 st.divider()
 uploaded_file = st.file_uploader("Choose a File", type=['jpg','png','jpeg'])
 
