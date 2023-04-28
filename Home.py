@@ -7,6 +7,8 @@ st.set_page_config(
     page_icon="🧬",
     initial_sidebar_state="expanded",
 )
+st.write('<style>div.row-widget.stMarkdown { font-size: 24px; }</style>', unsafe_allow_html=True)
+
 st.markdown(""" <style>
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
