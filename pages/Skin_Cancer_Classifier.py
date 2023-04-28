@@ -23,7 +23,7 @@ components.html(
             right: 25%;
             position: fixed;
         }
-        p{
+        .css-nahz7x{
             font-size: 2rem;
         }
     </style>
